@@ -1,0 +1,31 @@
+(function($) {
+  $(function() {
+  	var TriggerClick = 0;
+  	$("#menu1").click(function () { 
+	      if(TriggerClick==0){
+	       	  TriggerClick=1;
+	        	 $(this).removeClass("active");
+	    		$(".some_class.menu2").animate({'left':'-80%'});
+	        	 $(this).addClass("active");
+	        	 $(".some_class.menu1").animate({'left':'0'});
+	      }else{
+	       	TriggerClick=0;
+	     		$(this).removeClass("active");
+	    		$(".some_class.menu1").animate({'left':'-80%'});
+	    		 }
+    }); 
+    	$("#menu2").click(function () { 
+	      if(TriggerClick==0){
+	       	  TriggerClick=1;
+	        	 $(this).removeClass("active");
+	    		$(".some_class.menu1").animate({'left':'-80%'});
+	        	 $(this).addClass("active");
+	        	 $(".some_class.menu2").animate({'left':'0'});
+	      }else{
+	       	TriggerClick=0;
+	     		$(this).removeClass("active");
+	    		$(".some_class.menu2").animate({'left':'-80%'});
+	    		 }
+    }); 
+})   
+})(jQuery)
