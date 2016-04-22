@@ -1,0 +1,36 @@
+<script>
+
+function fanzoom (ob){
+	$(cl('.bc_tovalbum a[href="'+$(ob).attr('href')+'"].group')).trigger('click'); 
+}
+
+$(function() {
+
+	$("#Glide").glide({
+        	type: "carousel"
+   	 });
+
+
+		
+	$.mCustomScrollbar.defaults.scrollButtons.enable=true;
+	$(".other_color, .viewed_tovs").mCustomScrollbar({
+					axis:"x",
+					theme:"3d-thick-dark",
+					autoExpandScrollbar:true,
+					scrollButtons:true,
+					scrollInertia: 100,
+					mouseWheel:false,
+					advanced:{autoExpandHorizontalScroll:true}
+				});
+
+	$('.jqzoom').jqzoom({
+            zoomType: 'standard',
+            lens:true,
+		zoomWidth: 450, 
+		zoomHeight: 550, 
+            preloadImages: 4,
+            alwaysOn:false
+        });	
+});
+
+</script>
