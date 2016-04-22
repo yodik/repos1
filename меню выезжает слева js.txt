@@ -11,7 +11,7 @@
 	      }else{
 	       	TriggerClick=0;
 	     		$(this).removeClass("active");
-	    		$(".some_class.menu1").animate({'left':'-80%'});
+	    		$(".some_class.menu1").animate({'left':'-80%івавіавіав'});
 	    		 }
 
     }); 
