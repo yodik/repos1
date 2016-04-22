@@ -14,8 +14,6 @@
 	    		$(".some_class.menu1").animate({'left':'-80%'});
 	    		 }
 
-
-тиориоириоиололоило
     }); 
     	$("#menu2").click(function () { 
 	      if(TriggerClick==0){
@@ -32,6 +30,3 @@
     }); 
 })   
 })(jQuery)
-оиормрири
-
-мрм
