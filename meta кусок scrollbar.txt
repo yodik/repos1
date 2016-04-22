@@ -16,7 +16,7 @@ $(function() {
 	$(".other_color, .viewed_tovs").mCustomScrollbar({
 					axis:"x",
 					theme:"3d-thick-dark",
-				счмсчм	autoExpandScrollbar:true,
+				счмсчм	autoExpandScrollbarукуцкуцкуцкуцк:true,
 					scrollButtons:true,
 					scrollInertia: 100,
 					mouseWheel:false,
